@@ -1,3 +1,6 @@
+// Return index of target num if found in the sorted array, if not return -1.
+
+// O(log(n)) time, O(1) space
 function binarySearch(array, target) {
   let left = 0,
     right = array.length - 1,
